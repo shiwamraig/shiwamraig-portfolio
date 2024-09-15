@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from "../../assets/Shiwam's Resume.pdf";
+import CV from "../../assets/UpdatedResume.pdf";
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -42,19 +42,18 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://x.com/shiwam_raig" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/shiwamraig" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/shiwam-rai-813195216/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+        "Proficient in frontend development using React,JavaScript,CSS,HTML .<br/> Actively learning backend web development <br /> and improving problem-solving skills through Data Structures and Algorithms"
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

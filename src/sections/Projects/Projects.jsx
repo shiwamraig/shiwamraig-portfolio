@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import college from '../../assets/college2.jpg'
+import google from '../../assets/google-logo-9822.png'
+import passwordGenerator from '../../assets/password1.png';
+import currencyConverter from '../../assets/currency1.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +11,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={college}
           link="https://github.com/shiwamraig/collegeWebsite"
           h3="EduCollege"
           p="A College Website"
         />
         <ProjectCard
-          src={freshBurger}
+          src={google}
           link="https://github.com/shiwamraig/geminiClone"
           h3="GeminiClone"
           p="Google gemini Ai"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={currencyConverter}
+          link="https://github.com/shiwamraig/currencyConverter"
+          h3="CurrencyGuide"
+          p="Currency Converter"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={passwordGenerator}
+          link="https://github.com/shiwamraig/passwordGenerator"
+          h3="Password Generator"
+          p="Generate Password"
         />
       </div>
     </section>
